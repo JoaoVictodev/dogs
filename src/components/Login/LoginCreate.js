@@ -30,7 +30,7 @@ const LoginCreate = () => {
   return (
     <section className="animeLeft">
       <Head title="Criar Conta" />
-      <h1 className="title">Cadastres-se</h1>
+      <h1 className="title">Cadastre-se</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Usuario" type="text" name="username" {...username} />
         <Input label="Email" type="email" name="email" {...email} />
